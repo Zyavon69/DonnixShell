@@ -12,7 +12,7 @@ int main() {
   scanf("%s", name);
   
   while (true) {
-    printf("DonnixShell ");
+    printf("DonnixShell: ");
     scanf("%s", command);
     if (strcmp(command, "exit") == 0) {
       printf("Работа терминала завершена");
